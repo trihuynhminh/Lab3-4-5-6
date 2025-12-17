@@ -1,0 +1,19 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace Bai03 // Thay thế bằng Namespace của bạn
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1()); // Khởi chạy Form1
+        }
+    }
+}
